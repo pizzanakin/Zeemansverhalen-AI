@@ -1,0 +1,11 @@
+{
+  "entities": [ {
+    "value": "eggs benedict",
+    "synonyms": [ "eggs", "eggs benedict", "eggs benedikt" ],
+    "languageCode": "en"
+  }, {
+    "value": "Avocado on toast",
+    "synonyms": [ "Avocado on toast", "toast" ],
+    "languageCode": "en"
+  } ]
+}

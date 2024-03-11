@@ -1,0 +1,31 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "It's ",
+      "auto": true
+    }, {
+      "text": "Martijn",
+      "parameterId": "person",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Hi, my name is "
+    }, {
+      "text": "Martijn",
+      "parameterId": "person",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Martijn",
+      "parameterId": "person"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

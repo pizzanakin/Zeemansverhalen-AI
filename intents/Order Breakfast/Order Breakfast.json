@@ -1,0 +1,10 @@
+{
+  "name": "70309ba4-84aa-4946-8c4a-706aba553528",
+  "displayName": "Order Breakfast",
+  "parameters": [ {
+    "id": "breakfast-type",
+    "entityType": "@breakfast-type"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 3
+}

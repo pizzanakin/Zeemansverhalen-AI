@@ -1,0 +1,15 @@
+{
+  "name": "e6e8685b-1c02-40f5-880e-b4f2245f3941",
+  "displayName": "Eat in or take away",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Would you like to eat in or take away?" ]
+      },
+      "languageCode": "en"
+    } ]
+  }
+}

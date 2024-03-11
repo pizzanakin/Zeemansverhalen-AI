@@ -1,0 +1,29 @@
+{
+  "name": "7cd09cf9-0a50-4347-b817-4f98fd400c21",
+  "displayName": "Name",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Hi, what's your name?" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "GetName",
+    "condition": "true",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Hi, $intent.params.person" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Coffee",
+    "name": "baaedd0d-0ac1-4139-bbcc-ff220b4df9c4"
+  } ]
+}

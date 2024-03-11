@@ -1,0 +1,11 @@
+{
+  "name": "6c3180bf-f7f9-44a0-82fd-81edbbc9506e",
+  "displayName": "GetName",
+  "parameters": [ {
+    "id": "person",
+    "entityType": "@sys.person",
+    "redact": true
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 3
+}
