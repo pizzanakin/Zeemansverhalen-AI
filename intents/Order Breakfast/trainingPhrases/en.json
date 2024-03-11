@@ -1,0 +1,33 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "toast",
+      "parameterId": "breakfast-type",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "a plate of ",
+      "auto": true
+    }, {
+      "text": "eggs benedict",
+      "parameterId": "breakfast-type",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I would like some ",
+      "auto": true
+    }, {
+      "text": "avocado on toast",
+      "parameterId": "breakfast-type",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

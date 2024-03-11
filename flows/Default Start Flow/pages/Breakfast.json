@@ -1,0 +1,41 @@
+{
+  "name": "f2e7d9c8-6673-4a76-88cc-02d3b339a6f8",
+  "displayName": "Breakfast",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "What would you like for breakfast? Breakfast options are: Eggs benedict, or Avocado on toast." ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "Order Breakfast",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Great choice!" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetFlow": "Delivery",
+    "name": "930852f4-8b65-43ec-89c5-ff5f5fc4582d"
+  } ],
+  "eventHandlers": [ {
+    "targetPage": "Breakfast",
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I'm sorry, I didn't catch that." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "dba72d81-d2ab-4eca-9ecf-0c4df5c9ecab"
+  } ]
+}

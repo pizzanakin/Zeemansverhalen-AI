@@ -1,0 +1,48 @@
+{
+  "name": "edc30d5a-586d-4416-96d7-5bfdb25ea0a8",
+  "displayName": "Coffee",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Would you like some coffee, $session.params.person?" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "Yes",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "One coffee for $session.params.person, coming up!" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Breakfast",
+    "name": "d5152548-4add-4289-916e-27a81da5746d"
+  }, {
+    "intent": "No",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "End Flow",
+    "name": "1b0803c6-be7d-4bf5-854c-acfc4335fcbb"
+  } ],
+  "eventHandlers": [ {
+    "targetPage": "Coffee",
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I'm sorry, I didn't understand. Try answering with 'yes' or 'no'." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "cd60c7db-8567-4663-a116-d5aad9049fa9"
+  } ]
+}
